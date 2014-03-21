@@ -1,0 +1,6 @@
+import fpython
+#
+t_upla=(10,100,1000,10000,100000.1000000,10000000,100000000,1000000000,10000000000,100000000000,100000000000)#Crash en 4; para 5 o + valores; no
+for i in t_upla:
+  ap=fpython.funcion(i)
+  print ap
